@@ -16,22 +16,7 @@ const galleryNewEl = galleryItems.map(item => {
 galleryEl.insertAdjacentHTML('afterbegin', galleryNewEl);
 console.log(galleryEl);
 
-//galleryEl.addEventListener('click', onGalleryElClick)
- 
-//function onGalleryElClick(event){
-    //event.preventDefault();
 
-   // if (event.target.nodeName !== "IMG"){
-    // return;
-   //}
-        // if (!event.target.classList.contains("gallery__image"))
-       // {return}
-   // const instance = basicLightbox.create(`
-    //<img  src="${event.target.dataset.source}"  width="800" height="600">
-//`)
-    
-//instance.show()
-//}
 const gallery = new SimpleLightbox('.gallery a', 
 { captions: true,
     captionsData: "alt",

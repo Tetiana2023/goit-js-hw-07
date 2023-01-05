@@ -27,7 +27,7 @@ function onGalleryElClick(event){
         // if (!event.target.classList.contains("gallery__image"))
        // {return}
     const instance = basicLightbox.create(`
-    <img  src="${event.target.dataset.source}"  width="800" height="600">
+    <img  src="${event.target.dataset.source}"  width="800" height="600"/>
 `)
     
 instance.show()
